@@ -1,0 +1,234 @@
+/* all pages */
+p {
+    font-size: 22px;
+}
+ul {
+    font-size: 20px;
+}
+
+/* navbar */
+nav {
+    background-color: rgb(39, 39, 235);
+    height:60px;
+    position:fixed;
+    top:0;left:0;right:0;
+    padding-top:8px;
+
+}
+nav ul li {
+    display:inline-block;
+    margin-left: 50px;
+    
+}
+nav ul li:hover {
+    background-color: lightblue;
+}
+nav ul li a {
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    margin:0 7px;
+}
+nav .logo img {
+    line-height: 60px;
+    float:left;
+    margin:0 30px;
+    text-decoration: none;
+    width:60px;
+    height:50px;
+}
+
+/*footer*/
+.footer {
+    font-size: 20px;
+    background-color: rgb(39, 39, 235);
+    padding: 5px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
+.ft h4 a {
+    color: white;
+    text-decoration: none;
+}
+.footer h4 {
+    font-size: 17px;
+}
+.footer2 {
+    background-color: #1b20a4;
+    padding: 20px;
+}
+.ftdiv {
+    margin-left: 200px;
+}
+
+/* knowledge */
+.readmore_button {
+    margin-left: 50px;
+}
+.list1 {
+    font-size: 20px;
+}
+.subpage1 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 235);
+    padding: 10px;
+}
+.subpage2 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 235);
+    padding: 10px;
+}
+.subpage3 a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(39, 39, 235);
+    padding: 10px;
+}
+.subpage1 a:hover {
+    background-color:blue;
+}
+.subpage2 a:hover {
+    background-color:blue;
+}
+.subpage3 a:hover {
+    background-color:blue;
+}
+.buttons {
+    text-align: center;
+}
+
+/* about us & activity */
+.content {
+    padding: 20px 200px; 
+    color: black;
+}
+ 
+.text {
+    color: #000000;
+    padding: 20px;
+    width: 100%;
+}
+.text2 {
+    color: #000000;
+    padding: 20px;
+}
+
+
+/* knowledge */
+.readmore_button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 7.5%;
+    background-color: rgb(14, 72, 245);
+    margin: auto;
+    text-align: center;
+}
+.readmore_button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.readmore_button:hover {
+    background-color: rgb(9, 9, 255);
+}
+
+.info div {
+    width: 70%; 
+    margin: auto; 
+    padding: 20px;
+}
+.sp1 a{
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(14, 72, 245);
+    padding: 10px;
+}
+.sp2 a{
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color: rgb(14, 72, 245);
+    padding: 10px;
+}
+.sp3 a{
+    border: 2px solid black;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    background-color:rgb(14, 72, 245);
+    padding: 10px;
+}
+.sp1 a:hover {
+    background-color: blue;
+}
+.sp2 a:hover {
+    background-color: blue;
+}
+.sp3 a:hover {
+    background-color: blue;
+}
+
+/* hypertension */
+.info2 div {
+    width: 85%; 
+    margin: auto; 
+    padding: 20px;
+}
+
+
+body{
+    margin: 0px;
+}
+
+/* activity */
+.pamphlet {
+    margin: auto;
+}
+.pamphlet img {
+    width: 135px;
+    text-align: center;
+}
+.activity img {
+    width: 500px;
+    text-align: center;
+
+}
+.video {
+    text-align: center;
+}
+
+
+/*help*/
+.submit_button {
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    width: 6%;
+    background-color:rgb(14, 72, 245);
+    margin: auto;
+}
+.submit_button a {
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+}
+.submit_button:hover {
+    background-color:blue;
+}
+
